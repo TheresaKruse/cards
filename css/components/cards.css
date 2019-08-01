@@ -1,0 +1,95 @@
+/* Your card CSS file */
+.card-category {
+  background-image: url("sunflower.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 5px;
+  padding: 0px;
+  width: 500px;
+  height: 180px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 7px 9px 17px -4px rgba(54,69,52,1);
+}
+
+.sunflower {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.card-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid white;
+  width: 500px;
+  height: 180px;
+  margin-bottom: 20px;
+  box-shadow: 7px 9px 28px -4px rgba(52,89,84,1);
+}
+
+
+.card-product-image {
+  width: 220px;
+  height: 180px;
+  border-radius: 2px;
+}
+
+.class-product-text {
+  padding: 16px;
+}
+
+
+
+
+
+
+.card-trip {
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border: 1px solid lightgrey;
+  width: 500px;
+  box-shadow: 7px 9px 28px -4px rgba(52,89,84,1);
+}
+
+.card-trip-image {
+
+}
+
+.card-trip-text {
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  height: 100px;
+}
+
+.card-trip-title {
+
+}
+
+.card-trip-price {
+  display: flex;
+  align-items: flex-end;
+}
+
+.avatar {
+  position: absolute;
+  top: -30px;
+  right:20px;
+  width: 75px;
+  border: 1px solid white;
+  border-radius: 50%;
+
+}
+
